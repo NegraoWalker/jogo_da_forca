@@ -9,7 +9,7 @@ letrasDigitadas = [] # Lista criada para armazenar as letras digitadas pelo usu�
 
 chancesAcerto = 3 # Váriavel criada para definir quantas chances o usuário tem para acertar a palavra secreta
 
-while True: # Loop infinito até o usuário acertar a palavra
+while True:
 
     if chancesAcerto <= 0:
         print('Perdeu !!! você não conseguiu completar a palavra secreta !!!!')
