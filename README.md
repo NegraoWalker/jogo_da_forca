@@ -1,1 +1,1 @@
-# Projeto de linguagem Python de um jogo da forca
+# Projeto de linguagem Python do jogo da forca
