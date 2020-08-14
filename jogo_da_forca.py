@@ -30,10 +30,10 @@ while True:
         print()
         letrasDigitadas.pop() # Removendo a última letra digitada da lista
 
-    temporaria = '' # Criação de uma variável para armazenar as letras temporariamente
+    temporaria = '' # Criação de uma variável para armazenar as letras de forma temporaria
     for letraSecreta in palavraSecreta: # Criando um laço para exibição dos acertos da palavraSecreta sem mostrar a resposta
         if letraSecreta in letrasDigitadas: # Testando se a letra digitada está na lista de acertos
-            temporaria += letraSecreta # Armazenando os acertos de letras na variavel temporaria para sua exibição
+            temporaria += letraSecreta # Armazenando os acertos de letras na variável temporaria para sua exibição
         else:
             temporaria += '_' # Ocultando o resto das letras da palavraSecreta para a exibição na tela
 
@@ -45,7 +45,7 @@ while True:
     else:
         print(temporaria) # Exibindo a variável temporária para o usuário ver como está as letras se encaixando na palavraSecreta
         print()
-    if letra not in palavraSecreta: # Testando se a letra digitada não está na palavraSecreta para descrementar as chances do usuário
+    if letra not in palavraSecreta: # Testando se a letra digitada não está na palavraSecreta para decrementar as chances do usuário
         chancesAcerto -= 1 # Decrementando
     print(f'Você ainda tem {chancesAcerto} chances para acertar a palavra secreta') # Exibindo as chances
     print()
